@@ -1,0 +1,11 @@
+body {
+    perspective: 900px;
+}
+
+span {
+    transition: all 0.4s ease;
+}
+
+span.span-fade {
+    color: yellow;
+}

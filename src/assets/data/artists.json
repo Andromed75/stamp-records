@@ -1,0 +1,25 @@
+{
+    "artists":[
+        {
+            "name":"Petit Batou",
+            "photo":"https://im.ra.co/images/profiles/petitbatou.jpg",
+            "shortBio":"Petit Batou is like a little boat that is moving forward, going on an adventure, spreading love",
+            "bio": "What a vibe!\" \"Wicked track!\" This is what you often hear when Petit Batou is playing. His talent behind the decks captivates the crowds and brings people together. His mixing technique is used to allow people to switch to different emotional states. His subtle taste for the selection of tracks and his precision during his gigs allowed him to position himself among the pioneers of the local scene in his kind of minimal music in Paris. Electronic music became a strong interest in 2011, since before he studied the violin and was constantly surrounded by jazz and classical music. His passion for musical exploration and the discovery of talents from his country and elsewhere enabled him to create Stamp Records label in 2015 Petit Batou’s discography reaches a wider range of emotions, mentioning his notable signature on labels such as Tzinah, Kanja, CELO, Inwave.. Petit Batou is like a little boat that is moving forward, going on an adventure, spreading love",
+            "soundcloudTracksIds":[{"id":"713731819"}]
+        },
+        {
+            "name":"Phoq",
+            "photo":"https://im.ra.co/images/profiles/lg/phoq.jpg",
+            "shortBio":"Rpz le nord",
+            "bio": "",
+            "soundcloudTracksIds":[{"id":"713731819"}]
+        },
+        {
+            "name":"Daymount",
+            "photo":"https://im.ra.co/images/profiles/lg/daymount.jpg?auto=format",
+            "shortBio":"Rpz le 75011",
+            "bio": "",
+            "soundcloudTracksIds":[{"id":""}]
+        }
+    ]
+}

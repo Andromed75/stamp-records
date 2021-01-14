@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+.navbar {
+  background: none !important;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.nav-link {
+    padding-right: 4.5rem!important;
+    padding-left: 4.5rem!important;
+    font-size: 28px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+
+.navbar-nav {
+    opacity: 0;
+    transition: 1s ease;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.opacity-1 {
+    opacity: 1!important;
+}
+

@@ -1,0 +1,206 @@
+span {
+    color: white;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 91vh;
+    width: 100%;
+    transform-style: preserve-3d;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+#since_date {
+    opacity: 0;
+}
+
+.fade-anim {
+    transition: 2s ease;
+    opacity: 1!important;
+}
+
+#lettre_s {
+   opacity: 0; 
+}
+#lettre_r {
+   opacity: 0; 
+}
+
+.opacity_1 {
+    transition: 2s ease;
+    opacity: 1!important;
+}
+
+.fill-grey{
+    transition: 1s ease;
+    fill: rgb(255, 196, 0);
+}
+.unfill{
+    transition: 1s ease;
+    fill: rgb(0, 0, 0);
+}
+
+
+/* DEUX CERCLES DU BAS */
+#path905 {
+    stroke-dasharray: 227;
+    animation: animate-bottom-circle 3s ease;
+}
+
+@keyframes animate-bottom-circle{
+    0% {
+        stroke-dashoffset: 227;
+    }
+}
+
+#ellipse1257 {
+    stroke-dasharray: 137;
+    animation: animate-bottom-inner-circle 3s ease;
+}
+
+@keyframes animate-bottom-inner-circle {
+    0% {
+        stroke-dashoffset: 137;
+    }
+}
+
+/* DEUX CERCLES DU DESSUS */
+
+#ellipse907 {
+    stroke-dasharray: 135;
+    animation: animate-top-inner-circle 3s ease;
+}
+
+@keyframes animate-top-inner-circle {
+    0% {
+        stroke-dashoffset: 135;
+    }
+}
+
+#path68 {
+    stroke-dasharray: 227;
+    animation: animate-top-circle 3s ease;
+}
+
+@keyframes animate-top-circle {
+    0% {
+        stroke-dashoffset: 227;
+    }
+}
+
+/* LOGO R */
+
+#r1 {
+    stroke-dasharray: 52;
+    animation: animate-r1 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-r1 {
+    0% {
+        stroke-dashoffset: 52;
+    }
+}
+#r2 {
+    stroke-dasharray: 9;
+    animation: animate-r2 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-r2 {
+    0% {
+        stroke-dashoffset: 9;
+    }
+}
+#r3 {
+    stroke-dasharray: 28;
+    animation: animate-r3 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-r3 {
+    0% {
+        stroke-dashoffset: 28;
+    }
+}
+#r4 {
+    stroke-dasharray: 23;
+    animation: animate-r4 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-r4 {
+    0% {
+        stroke-dashoffset: 23;
+    }
+}
+
+/* LOGO S */
+
+#s1 {
+    stroke-dasharray: 13;
+    animation: animate-s1 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-s1 {
+    0% {
+        stroke-dashoffset: 13;
+    }
+}
+#s2 {
+    stroke-dasharray: 48;
+    animation: animate-s2 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-s2 {
+    0% {
+        stroke-dashoffset: 48;
+    }
+}
+#s3 {
+    stroke-dasharray: 51;
+    animation: animate-s3 3s ease;
+    animation-delay: 1s;
+}
+
+@keyframes animate-s3 {
+    0% {
+        stroke-dashoffset: 51;
+    }
+}
+
+/* DEUX DEMI CERCLES SUR LE TEC */
+
+#path1245 {
+    stroke-dasharray: 30;
+    animation: animate-c1 3s ease;
+}
+
+@keyframes animate-c1 {
+    0% {
+        stroke-dashoffset: 30;
+    }
+}
+
+#path1251 {
+    stroke-dasharray: 30;
+    animation: animate-c2 3s ease;
+}
+
+@keyframes animate-c2 {
+    0% {
+        stroke-dashoffset: 30;
+    }
+}

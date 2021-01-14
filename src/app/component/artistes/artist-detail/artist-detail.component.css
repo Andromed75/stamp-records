@@ -1,0 +1,16 @@
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    opacity: 0;
+    transition: 1s ease;
+
+
+}
+
+.image {
+    text-align: center;
+    margin-top: 50px;
+    transition: 1s ease;
+}

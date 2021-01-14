@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+.artist-image {
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.artist-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.name {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.short-bio {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0;
+    transition: 1.5s ease;
+}
