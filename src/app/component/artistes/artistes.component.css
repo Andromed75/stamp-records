@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 
+
 img {
     width: 200px;
     height: 200px;
@@ -7,6 +8,9 @@ img {
     object-fit: cover;
     transition: 1s ease;
     cursor: pointer;
+    -webkit-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.27);
 }
 
 img:hover {

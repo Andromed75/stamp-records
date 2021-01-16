@@ -14,14 +14,14 @@ export class HomeComponent implements OnInit {
     const image: HTMLElement = document.querySelector('.image');
     let tl = new TimelineMax();
     // image.addEventListener('mousemove', (e: MouseEvent) => {
-    //   let xAxis = (window.innerWidth / 2 - e.pageX) / 10; 
+    //   let xAxis = (window.innerWidth / 2 - e.pageX) / 10;
     //   let yAxis = (window.innerWidth / 2 - e.pageY) / 10;
-    //   image.style.transform  = `rotateY(${yAxis}deg) rotateX(${xAxis}deg)`; 
+    //   image.style.transform  = `rotateY(${yAxis}deg) rotateX(${xAxis}deg)`;
     // })
     tl
     .to('.image', 2, {rotateY: 10, rotateZ: 0, rotateX: 5, ease: Power0.easeOut})
     .to('.image', 2, {rotateY: -10, rotateZ: 0, rotateX: 0, ease: Power0.easeOut})
-    .to('.image', 2, {rotateY: 0, rotateZ: 0, rotateX: 0, ease: Power0.easeOut})
+    .to('.image', 2, {rotateY: 0, rotateZ: 0, rotateX: 0, ease: Power0.easeOut});
 
     // animations logo + since 2015
     this.animationSince2015();
@@ -83,7 +83,7 @@ export class HomeComponent implements OnInit {
 
   surbrillanceBottomLetters() {
     setTimeout(() => {
-      const lettersBottom = document.getElementsByClassName("text-bottom");      
+      const lettersBottom = document.getElementsByClassName("text-bottom");
       let char = 0;
       let timer = setInterval(onTick, 150);
 

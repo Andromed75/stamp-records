@@ -1,16 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.container {
+  overflow: hidden;
+}
+.first-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92.2vh;
+}
+
+.second-container {
+  min-height: 100vh;
+  /* background-color: rgba(0,0,0,.55); */
+}
+
+.row {
+  width: 100%;
+}
+
 img {
-    border-radius: 50%;
-    object-fit: cover;
-    height: 400px;
-    width: 400px;
-    opacity: 0;
-    transition: 1s ease;
-
-
+  -webkit-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 10px 10px 18px -3px rgba(0, 0, 0, 0.27);
+  border-radius: 50%;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: 1s ease;
 }
 
 .image {
-    text-align: center;
-    margin-top: 50px;
-    transition: 1s ease;
+  text-align: center;
+  margin-top: 50px;
 }
+
+.artist-name {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: 'Bodoni Moda', serif; */
+  font-family: 'Playfair Display SC', serif;
+  font-size: 38px;
+  text-align: center;
+}
+
+.short-bio {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: 'Bodoni Moda', serif; */
+  font-family: 'Playfair Display SC', serif;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 1s ease!important;
+}
+
+.artist-name > p {
+  color: rgba(0,0,0,.55);
+}
+
+.first-cols {
+  width: 50%;
+  transition: 1s ease!important;
+}
+
+#p-sb {
+  letter-spacing: 100px;
+  transition: 2.2s ease!important;
+  opacity: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bio {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.sc-links {
+  margin-top: 70px;
+}
+
+.sc-sound {
+  margin-top: 25px;
+}
+
+@media (max-width: 991px) {
+  .first-cols {
+    width: 1000%;
+  }
+}
+
+@media (max-width: 991px) {
+  img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
