@@ -20,11 +20,21 @@
   <div class="bio">
     {{artist.bio}}
   </div>
-  <div class="sc-links">
+  <div class="sc-links" id="sc-links" (click)="toggleScLinks()">
     <div class="sc-sound" *ngFor="let url of urls">
       <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
         [src]="url">
       </iframe>
+    </div>
+  </div>
+  <div class="other-infos">
+    <div class="row">
+      <div class="col-md-6">
+
+      </div>
+      <div class="col-md-6">
+
+      </div>
     </div>
   </div>
 </div>

@@ -13,17 +13,19 @@
         {
             "name":"Phoq",
             "photo":"https://im.ra.co/images/profiles/lg/phoq.jpg",
-            "shortBio":"Rpz le nord",
-            "bio": "",
+            "shortBio":"Lorem ipsum dolor sit amet. Et suscipit animi aut voluptatem perspiciatis ut molestiae modi ut sapiente quam natus magni qui culpa sint et quibusdam dolores",
+            "bio": "Lorem ipsum dolor sit amet. Et suscipit animi aut voluptatem perspiciatis ut molestiae modi ut sapiente quam natus magni qui culpa sint et quibusdam dolores Lorem ipsum dolor sit amet. Et suscipit animi aut voluptatem perspiciatis ut molestiae modi ut sapiente quam natus magni qui culpa sint et quibusdam dolores",
             "soundcloudTracksIds":[
-              {"id":"713731819"}
+              {"id":"819394603"},
+              {"id":"819394549"},
+              {"id":"819394600"}
             ]
         },
         {
             "name":"Daymount",
             "photo":"https://im.ra.co/images/profiles/lg/daymount.jpg?auto=format",
-            "shortBio":"Rpz le 75011",
-            "bio": "",
+            "shortBio":"Lorem ipsum dolor sit amet. Et suscipit animi aut voluptatem perspiciatis ut molestiae modi ut sapiente quam natus magni qui culpa sint et quibusdam dolores",
+            "bio": "Lorem ipsum dolor sit amet. Et suscipit animi aut voluptatem perspiciatis ut molestiae modi ut sapiente quam natus magni qui culpa sint et quibusdam dolores Lorem ipsum dolor sit amet. Et suscipit animi aut voluptatem perspiciatis ut molestiae modi ut sapiente quam natus magni qui culpa sint et quibusdam dolores",
             "soundcloudTracksIds":[{"id":""}]
         }
     ]

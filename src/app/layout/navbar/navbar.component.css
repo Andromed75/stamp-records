@@ -29,4 +29,8 @@
     opacity: 1!important;
 }
 
+.accueil {
+  position: absolute;
+  left: 0;
+}
 

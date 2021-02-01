@@ -50,4 +50,9 @@ export class ArtistDetailComponent implements OnInit {
     return this.domSan.bypassSecurityTrustResourceUrl(url);
   }
 
+  toggleScLinks() {
+    const scLinks = document.getElementById('sc-links');
+
+  }
+
 }
