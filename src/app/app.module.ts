@@ -9,6 +9,8 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import { ArtistesComponent } from './component/artistes/artistes.component';
 import { ArtistDetailComponent } from './component/artistes/artist-detail/artist-detail.component';
+import { ReleaseListComponent } from './component/release/release-list/release-list.component';
+import { ReleaseDetailComponent } from './component/release/release-detail/release-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ArtistDetailComponent } from './component/artistes/artist-detail/artist
     FooterComponent,
     HomeComponent,
     ArtistesComponent,
-    ArtistDetailComponent
+    ArtistDetailComponent,
+    ReleaseListComponent,
+    ReleaseDetailComponent
     ],
   imports: [
     BrowserModule,
