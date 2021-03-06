@@ -11,6 +11,9 @@ import { ArtistesComponent } from './component/artistes/artistes.component';
 import { ArtistDetailComponent } from './component/artistes/artist-detail/artist-detail.component';
 import { ReleaseListComponent } from './component/release/release-list/release-list.component';
 import { ReleaseDetailComponent } from './component/release/release-detail/release-detail.component';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { ReleaseDetailComponent } from './component/release/release-detail/relea
     ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,9 +11,9 @@ export class ArtistesComponent implements OnInit {
 
   clientId: string = 'RUY5ryUjlES3TvHOWsaFlz5CSDn5Jyip';
   public artists:Array<any>;
-  
+
   constructor(private router: Router) { }
-  
+
   ngOnInit() {
     this.artists = Object.keys(myArtists).map(function(personNamedIndex){
       let artist = myArtists[personNamedIndex];
@@ -24,12 +24,12 @@ export class ArtistesComponent implements OnInit {
     container.style.opacity = '1';
   }, 1)
   }
-  
+
 
   displayShortBio(index: number) {
     const image =  document.getElementsByClassName('short-bio')[index] as HTMLElement;
     image.style.opacity = '1';
-    
+
   }
   hideShortBio(index: number) {
     const image =  document.getElementsByClassName('short-bio')[index] as HTMLElement;

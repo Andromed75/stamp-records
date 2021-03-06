@@ -21,7 +21,7 @@
 
 .navbar-nav {
     opacity: 0;
-    transition: 1s ease;
+    transition: 2s ease;
     font-family: 'Playfair Display SC', serif;
 }
 

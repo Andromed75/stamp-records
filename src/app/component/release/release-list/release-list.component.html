@@ -1,1 +1,13 @@
-<p>release-list works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let r of releases; index as i">
+      <div class="release-image">
+        <img src="{{r.image}}" alt="" (mouseenter)="displayInfos(i)" (mouseleave)="hideInfos(i)">
+      </div>
+      <div class="release-info">
+        <p class="title">{{r.titre}}</p>
+        <p class="infos">{{r.artistes}}</p>
+      </div>
+    </div>
+  </div>
+</div>
