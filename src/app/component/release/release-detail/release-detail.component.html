@@ -1,1 +1,15 @@
-<p>release-detail works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" id="release-name">
+      <p style="margin-right: 60px;">{{releaseName}}</p>
+    </div>
+    <div class="col-md-6">
+      <div class="release-image" id="image-div">
+        <img src="{{image}}" alt="">
+      </div>
+    </div>
+    <div class="col-md-3" id="artist-name">
+      <div class="name" *ngFor="let a of artists">{{a}}</div>
+    </div>
+  </div>
+</div>

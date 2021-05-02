@@ -16,9 +16,16 @@ export class ReleaseListComponent implements OnInit {
     this.firestore.collection('Release').get().subscribe(
       response => {
         response.forEach( (doc) => {
-          const tmp: any = doc.data();
+          const tmp = doc.data() as Release;
+          tmp.id = doc.id;
           this.releases.push(tmp);
-        })
+        });
+        console.log(this.releases);
+
+        setTimeout(() => {
+          const container = document.getElementById('container') as HTMLElement;
+          container.style.opacity = '1';
+        }, 1);
       }
     );
   }

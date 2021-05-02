@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container" id="container">
   <div class="row">
     <div class="col-md-4" *ngFor="let r of releases; index as i">
-      <div class="release-image">
+      <div class="release-image" [routerLink]="['/release', r.id]">
         <img src="{{r.image}}" alt="" (mouseenter)="displayInfos(i)" (mouseleave)="hideInfos(i)">
       </div>
       <div class="release-info">

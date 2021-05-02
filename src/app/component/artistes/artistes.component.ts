@@ -22,7 +22,7 @@ export class ArtistesComponent implements OnInit {
   setTimeout(() => {
     const container = document.getElementById('container') as HTMLElement;
     container.style.opacity = '1';
-  }, 1)
+  }, 1);
   }
 
 

@@ -14,6 +14,7 @@ import { ReleaseDetailComponent } from './component/release/release-detail/relea
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
+import { ContactComponent } from './component/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { environment } from 'src/environments/environment';
     ArtistesComponent,
     ArtistDetailComponent,
     ReleaseListComponent,
-    ReleaseDetailComponent
+    ReleaseDetailComponent,
+    ContactComponent
     ],
   imports: [
     BrowserModule,

@@ -1,0 +1,87 @@
+/* .univers {
+  width: 100%;
+  background-color: coral;
+  transition: 1s ease;
+}
+
+.rayon {
+  width: 100%;
+  background-color: rgb(255, 214, 80);
+  transition: 1s ease;
+}
+.ssrayon {
+  width: 100%;
+  background-color: rgb(115, 255, 80);
+  transition: 1s ease;
+}
+
+.closed {
+  height: 0;
+  overflow: hidden;
+  transition: 1s ease!important;
+}
+
+.expanded {
+  max-height: 1000px;;
+  transition: 1s ease!important;
+  height: auto;
+}
+.expanded-2 {
+  max-height: 1000px;;
+  transition: 1s ease!important;
+  height: 40px;
+}
+
+
+.category-content {
+  height: 40px;
+  display: flex;
+  align-items: center;
+} */
+
+/* AZERTYUI */
+
+.closed {
+  height: 0;
+  overflow: hidden;
+}
+
+.expanded {
+  max-height: 10000px;;
+  height: auto;
+}
+.expanded-2 {
+  max-height: 10000px;;
+  height: 40px;
+}
+
+.univers, .rayon, .sousrayon {
+  color: white;
+  transition: 0.7s ease;
+}
+
+.univers {
+  background: rgb(54, 101, 255);
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
+.rayon  {
+  background: rgb(54, 211, 119);
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.sousrayon {
+  background: coral;
+  cursor: default;
+  padding-left: 20px;
+}
+
+.category-content {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
